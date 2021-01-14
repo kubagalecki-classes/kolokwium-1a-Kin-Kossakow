@@ -8,6 +8,7 @@ double obliczMake(const std::vector<Tagliatelle>& vector)
 {
     double M = 0;
     unsigned multiplier = 1;
+    
     for (size_t i = vector.size() - 1; i >= 0; --i)
     {
         M += vector[i].ileMaki(multiplier);

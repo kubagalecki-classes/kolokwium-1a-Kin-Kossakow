@@ -4,7 +4,7 @@
 
 // tutaj funkcja obliczMake
 
-double obliczMake(std::vector<Tagliatelle> vector)
+double obliczMake(const std::vector<Tagliatelle>& vector)
 {
     double M = 0;
     unsigned multiplier = 1;
